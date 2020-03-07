@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CrowdNotes</string>
+    <string name="forgot_password_reset"><u>Forgot password? Reset.</u></string>
+    <string name="no_account_regster"><u>No account? Regster</u></string>
 </resources>
