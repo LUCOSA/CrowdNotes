@@ -78,11 +78,13 @@
                 android:layout_below="@id/linear"/>
 
             <TextView
+                android:id="@+id/register_text"
                 android:layout_marginBottom="16dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/no_account_regster"
                 android:textColor="#FFFFFF"
+                android:onClick="Register"
                 android:layout_below="@id/forgot_text"
                 android:layout_centerHorizontal="true"/>
 

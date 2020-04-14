@@ -1,5 +1,29 @@
 <resources>
     <string name="app_name">CrowdNotes</string>
     <string name="forgot_password_reset"><u>Forgot password? Reset.</u></string>
-    <string name="no_account_regster"><u>No account? Regster</u></string>
+    <string name="no_account_regster"><u>No account? Register</u></string>
+    <string name="already_have_account"><u>Already have an account? Log In.</u></string>
+
+    <string-array name="faculty_prompt">Choose Faculty</string-array>
+    <string-array name="department_prompt">Choose Department</string-array>
+    <string-array name="course_prompt">Choose Course</string-array>
+
+    <string-array name="Faculty">
+        <item>HDS</item>
+        <item>Education</item>
+        <item>Science and Applied Technology</item>
+    </string-array>
+
+    <string-array name="Department">
+        <item>Economics</item>
+        <item>Mathematics</item>
+        <item>Computing and Informatics</item>
+    </string-array>
+
+    <string-array name="Course">
+        <item>Statistics</item>
+        <item>Media</item>
+        <item>Computer Science</item>
+        <item>BICT</item>
+    </string-array>
 </resources>
