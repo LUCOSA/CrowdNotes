@@ -74,6 +74,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/forgot_password_reset"
                 android:textColor="#FFFFFF"
+                android:onClick="Reset"
                 android:layout_centerHorizontal="true"
                 android:layout_below="@id/linear"/>
 
