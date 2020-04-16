@@ -8,6 +8,10 @@
     app:layout_constraintTop_toTopOf="parent"
     tools:context=".HomeActivity">
 
+    <androidx.appcompat.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tab_layout"
         android:layout_width="match_parent"
@@ -26,21 +30,21 @@
             android:id="@+id/notification_page"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:icon="@drawable/home"
-            android:text="Notification" />
+            android:icon="@drawable/message"
+            android:text="Messages" />
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/profile_page"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:icon="@drawable/home"
+            android:icon="@drawable/user"
             android:text="Profile" />
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/others_page"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:icon="@drawable/home"
+            android:icon="@drawable/menu"
             android:text="Others" />
 
     </com.google.android.material.tabs.TabLayout>
