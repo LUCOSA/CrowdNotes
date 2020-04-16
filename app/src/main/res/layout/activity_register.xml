@@ -57,29 +57,38 @@
                 android:hint="Email"
                 android:textColorHint="#FFFFFF" />
 
-            <Spinner
+            <androidx.appcompat.widget.AppCompatSpinner
                 android:id="@+id/faculty_spinner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/email_text"
+                style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                android:backgroundTint="#FFFFFF"
                 android:entries="@array/Faculty"
-                android:prompt="@array/faculty_prompt" />
+                android:paddingTop="10dp"
+                android:theme="@style/Spinner" />
 
-            <Spinner
+            <androidx.appcompat.widget.AppCompatSpinner
                 android:id="@+id/department_spinner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/faculty_spinner"
                 android:entries="@array/Department"
-                android:prompt="@array/department_prompt" />
+                style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                android:backgroundTint="#FFFFFF"
+                android:paddingTop="10dp"
+                android:theme="@style/Spinner" />
 
-            <Spinner
+            <androidx.appcompat.widget.AppCompatSpinner
                 android:id="@+id/course_spinner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/department_spinner"
+                style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                android:backgroundTint="#FFFFFF"
                 android:entries="@array/Course"
-                android:prompt="@array/course_prompt" />
+                android:paddingTop="10dp"
+                android:theme="@style/Spinner" />
 
             <EditText
                 android:id="@+id/password_text"
