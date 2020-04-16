@@ -63,6 +63,7 @@
                     android:layout_below="@id/password_text"
                     android:layout_marginTop="16dp"
                     android:text="Log In"
+                    android:onClick="Home"
                     android:textAllCaps="false"
                     android:textColor="#FFFFFF" />
 
