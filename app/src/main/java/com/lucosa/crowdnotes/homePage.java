@@ -98,8 +98,8 @@ public class homePage extends Fragment {
         @Override
         public void onBindViewHolder(ListAdapter.ViewHolder holder, final int position) {
             holder.titleTextView.setText(arrayList.get(position).getTitle());
-            holder.titleTextView.setText(arrayList.get(position).getAuthor());
-            holder.titleTextView.setText(arrayList.get(position).getThumbnail());
+            holder.authorTextView.setText(arrayList.get(position).getAuthor());
+            holder.thumbnailImageView.setImageResource(arrayList.get(position).getThumbnail());
 
             holder.itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
