@@ -4,7 +4,7 @@ public class Book {
 
     public static String[] Titles = new String[] {
             "Exploratory Programming for the Arts and Humanities",
-            "Code Warriors: NSA's Codebreakers and the Secret Intelligence War Against the Soviet Union",
+            "Code Warriors: NSA's Codebreakers",
             "Digital Defense: A Cybersecurity Primer",
             "Learning PHP, MySQL & JavaScript",
             "The Innovators"
