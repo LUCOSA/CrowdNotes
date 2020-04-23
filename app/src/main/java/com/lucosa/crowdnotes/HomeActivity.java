@@ -1,9 +1,12 @@
 package com.lucosa.crowdnotes;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.ListFragment;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.os.Bundle;
 
 import com.google.android.material.tabs.TabItem;
