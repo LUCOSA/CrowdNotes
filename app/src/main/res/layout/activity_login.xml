@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#C90909"
+    android:background="#9E2B2B"
     tools:context=".LoginActivity">
 
         <RelativeLayout
@@ -15,10 +15,10 @@
             <ImageView
                 android:id="@+id/logo"
                 android:layout_centerHorizontal="true"
-                android:layout_width="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_height="250sp"
-                android:src="@drawable/crowd_notes_icon"/>
+                android:layout_width="150dp"
+                android:layout_marginTop="100dp"
+                android:layout_height="150dp"
+                android:src="@drawable/ic_crowd_notes_icon"/>
 
             <TextView
                 android:id="@+id/logo_text"
@@ -26,6 +26,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/logo"
                 android:layout_centerHorizontal="true"
+                android:fontFamily="@font/poppins"
                 android:text="CrowdNotes"
                 android:textColor="#FFFFFF"
                 android:textSize="40sp" />
@@ -44,27 +45,39 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColorHint="#FFFFFF"
-                    android:backgroundTint="#FFFFFF"
-                    android:hint="Email" />
+                    android:height="49dp"
+                    android:textSize="24dp"
+                    android:fontFamily="@font/poppins"
+                    android:background="@drawable/background_fields"
+                    android:hint="      Email" />
 
                 <EditText
                     android:id="@+id/password_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColorHint="#FFFFFF"
-                    android:backgroundTint="#FFFFFF"
-                    android:hint="Password"
+                    android:layout_marginTop="16dp"
+                    android:height="49dp"
+                    android:textSize="24dp"
+                    android:background="@drawable/background_fields"
+                    android:fontFamily="@font/poppins"
+                    android:hint="     Password"
                     android:layout_below="@id/email_text" />
 
                 <Button
                     android:id="@+id/login_button"
-                    android:layout_width="match_parent"
+                    android:layout_width="137dp"
+
                     android:layout_height="wrap_content"
                     android:layout_below="@id/password_text"
                     android:layout_marginTop="16dp"
                     android:text="Log In"
                     android:onClick="Home"
+                    android:layout_gravity="right"
+                    android:fontFamily="@font/poppins"
+                    android:background="@drawable/background_fields"
                     android:textAllCaps="false"
+                    android:textSize="24dp"
                     android:textColor="#FFFFFF" />
 
             </LinearLayout>

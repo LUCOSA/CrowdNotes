@@ -2,7 +2,8 @@
     <string name="app_name">CrowdNotes</string>
     <string name="forgot_password_reset"><u>Forgot password? Reset.</u></string>
     <string name="no_account_regster"><u>No account? Register</u></string>
-    <string name="already_have_account"><u>Already have an account? Log In.</u></string>
+    <string name="already_have_account">Already have an account? <br/><u> Log In.</u></string>
+    <string name="reset">Reset <br/> Password</string>
 
     <string-array name="Faculty">
         <item>Faculty</item>
