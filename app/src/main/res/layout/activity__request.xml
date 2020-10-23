@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Request"
+    android:orientation="vertical"
+    android:background="@drawable/home_background">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Request Books"
+        android:textSize="40dp"
+        android:layout_gravity="center_horizontal"
+
+        />
+
+    <EditText
+        android:id="@+id/bookname"
+        android:hint="Book name"
+        android:textColorHint="#fff"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
+        android:drawablePadding="10dp"
+        android:background="#817E7E"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPassword"
+         />
+    <EditText
+        android:id="@+id/author"
+        android:hint="Author(Optional)"
+        android:textColorHint="#fff"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
+        android:drawablePadding="10dp"
+        android:background="#817E7E"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        />
+    <EditText
+        android:id="@+id/others"
+        android:hint="other details(optional)"
+        android:textColorHint="#fff"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
+        android:drawablePadding="10dp"
+        android:background="#817E7E"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        >
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:text="send" />
+</LinearLayout>
